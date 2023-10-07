@@ -1,0 +1,39 @@
+{% extends 'base.jinja' %}
+
+{% block maincontent %}
+
+				<!-- Main -->
+					<div id="main">
+
+						
+							<section id="one" class="tiles">
+								{% for page in pages %}
+								{% if page.label|lower in ['about','experience','education','leadership'] %}
+								<article>
+									<span class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">{{ page.label }}</a></h3>
+										<p>{{ page.description }}</p>
+									</header>
+								</article>
+								{% endif %}
+								{% endfor %}
+							</section>
+
+						
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>Projects</h2>
+									</header>
+									<p>Portfolio of my ongoing projects and a sample of my previous projects and publications.</p>
+									<ul class="actions">
+										<li><a href="landing.html" class="button next">Portfolio Page</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+					{% endblock %}
