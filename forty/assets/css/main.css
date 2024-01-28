@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background: #181a1c;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -118,7 +118,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 17pt;
+		font-size:17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
 		line-height: 1.65;
@@ -143,7 +143,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 17pt;
 			}
 
 		}
@@ -1957,7 +1957,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #242943;
+			background: #909090;
 		}
 
 		select:focus::-ms-value {
@@ -2024,7 +2024,7 @@ input, select, textarea {
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: rgba(212, 212, 255, 0.035);
+				background: rgba(75, 75, 102, 0.035);
 				content: '';
 				display: inline-block;
 				font-size: 0.8em;
@@ -2043,7 +2043,7 @@ input, select, textarea {
 			background: #ffffff;
 			border-color: #9bf1ff;
 			content: '\f00c';
-			color: #242943;
+			color: #000000;
 		}
 
 		input[type="checkbox"]:focus + label:before,
@@ -2135,7 +2135,7 @@ input, select, textarea {
 		.icon.alt:before {
 			background-color: #ffffff;
 			border-radius: 100%;
-			color: #242943;
+			color: #000000;
 			display: inline-block;
 			height: 2em;
 			line-height: 2em;
@@ -2765,7 +2765,7 @@ input, select, textarea {
 			}
 
 			.tiles article h3 {
-				font-size: 1.75em;
+				font-size: 3em;
 			}
 
 				.tiles article h3 a:hover {
@@ -2883,7 +2883,11 @@ input, select, textarea {
 			}
 
 				.tiles article h3 {
-					font-size: 1.5em;
+					font-size: 3em;
+				}
+
+				.tiles article p {
+					font-size: 2em
 				}
 
 		}
@@ -3145,7 +3149,7 @@ input, select, textarea {
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				background-color: #ffffff;
-				color: #242943;
+				color: #131314;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3423,7 +3427,7 @@ input, select, textarea {
 		}
 
 		#banner h1 {
-			font-size: 3.25em;
+			font-size: 4em;
 		}
 
 		#banner > .inner {

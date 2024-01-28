@@ -28,8 +28,8 @@
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    #fbff00 , 
-    hsla(36, 100%, 69%, 0) 50%
+    #ec8d81 , 
+    hsla(7, 100%, 50%, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
@@ -43,8 +43,8 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    #fbff00,
-    #c3ff00
+    #ec8d81,
+    #ec6250,
   );
 
   /* solid */
@@ -56,11 +56,11 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola:#c3ff00;
-  --vegas-gold: #fbff00;
+  --orange-yellow-crayola:#ec8d81;
+  --vegas-gold: #ec8d81;
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: #fbff00;
+  --bittersweet-shimmer: #ec8d81;
 
   /**
    * typography
@@ -148,7 +148,7 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+
 
 
 
